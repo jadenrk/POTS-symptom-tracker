@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&family=VT323&display=swap');
+
+body {
+  background: #f1f1f1;
+  margin: 0;
+  font-family: "Poppins";
+}
+header {
+  background: #fff;
+}
+
+table {
+}
+
+th {
+  writing-mode: tb-rl;
+  transform: rotate(-180deg);
+  vertical-align: top;
+  padding: 0.5rem;
+}
+
+th.date {
+  writing-mode: horizontal-tb;
+  transform: none;
+  vertical-align: bottom;
+  text-align: left;
+}
+
+tr:nth-child(even) {
+  background-color: #D6EEEE;
+}
+
+td {
+  text-align: center;
+  padding: 0.5rem;
+}
+
+td.date {
+  text-align: left;
+}
+
+/* layout */
+/*:root {
+  --primary: #1aac83;
+  --error: #e7195a;
+}
+header .container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header a {
+  color: #333;
+  text-decoration: none;
+}
+.pages{
+  max-width: 1400px;
+  padding: 20px;
+  margin: 0 auto;
+}*/
+
+
+
+
+.fixTableHead { 
+  overflow-y: auto; 
+  border: 1px solid #aaa;
+} 
+.fixTableHead thead th { 
+  position: sticky; 
+  top: 0; 
+  background-color: white;
+} 
+th, 
+td { 
+  padding: 8px 15px; 
+} 
