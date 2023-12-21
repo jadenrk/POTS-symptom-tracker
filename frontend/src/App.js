@@ -15,7 +15,7 @@ function App() {
     <div className="App flex flex-col h-screen">
       <BrowserRouter>
       <Navbar />
-        <div className="pages flex flex-grow overflow-hidden m-4">
+        <div className="pages flex flex-grow content-start justify-start overflow-hidden m-4">
           <Routes>
             <Route 
               path="/"
